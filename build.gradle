@@ -38,6 +38,10 @@ dependencies {
 	testImplementation 'org.springframework.security:spring-security-test'
 	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign', version: '1.4.7.RELEASE'
 	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-ribbon', version: '1.4.7.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-sleuth
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-sleuth', version: '1.0.0.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix', version: '1.4.7.RELEASE'
 }
 
 dependencyManagement {

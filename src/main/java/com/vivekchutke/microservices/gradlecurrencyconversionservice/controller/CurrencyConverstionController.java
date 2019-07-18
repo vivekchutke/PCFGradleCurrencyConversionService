@@ -39,6 +39,7 @@ public class CurrencyConverstionController {
         currencyConversionBean.setQuantity(quantity.intValue());
         currencyConversionBean.setTotalConvertedAmount(quantity.multiply(currencyConversionBean.getConversitionValue()));
 
+        logger.info("Currency Conversion value is: {}", currencyConversionBean);
         return currencyConversionBean;
     }
 
